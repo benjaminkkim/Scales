@@ -27,7 +27,7 @@ void scale(int x, int y){
     ellipse(50+x,50+y,20,20);
     triangle(40+x,49+y,60+x,49+y,50+x,25+y);
     //dark blue color
-    if(Math.random()<.33){
+    if(Math.random()<.4){
       fill(0,100,255);
       ellipse(50+x,50+y,30,30);
       triangle(35+x,47+y,65+x,47+y,50+x,20+y);
