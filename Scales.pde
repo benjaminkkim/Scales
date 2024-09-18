@@ -15,7 +15,6 @@ void draw(){
     shift = false;
   else
     shift = true;
-  System.out.println();
   }
 } 
 void scale(int x, int y){
